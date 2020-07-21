@@ -6,7 +6,7 @@
 
 body{
 	margin: 0px; /* Often browsers have a 5px margin by deafult*/
-	font-family: sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 
 section{
@@ -18,11 +18,35 @@ section{
 }
 
 header{
-	background-color: darkOrange;
+	background-color: lightBlue;
 	color: white; /* more readable on an orange background */
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
+
+header2{
+	background-color: white;
+	color: black; /* more readable on an orange background */
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+header h1{
+	font-size: 250%;
+	font-family: 'Berkshire Swash', cursive;
+}
+
+header2 h1{
+	font-size: 250%;
+	font-family: 'Berkshire Swash', cursive;
+	color: lightBlue;
+}
+
+header2 h2{
+	font-size: 100%;
+	color: lightBlue;
+}
+
 
 nav{
 	width: 100%;
@@ -39,6 +63,7 @@ nav a{
 	text-decoration: none;
 	color: white;
 	display: block;
+	font-family: 'Lato', sans-serif;
 }
 
 nav h3{
@@ -50,15 +75,13 @@ nav h3{
 	text-decoration: none;
 	color: white;
 	display: block;
+	font-family: 'Lato', sans-serif;
 }
 
 nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
 }
 
-header h1{
-	size: 100px;
-}
 
 
 /* Simple grid */
